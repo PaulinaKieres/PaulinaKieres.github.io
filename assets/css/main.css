@@ -2386,6 +2386,7 @@ input, select, textarea {
 		padding: 0.75rem 1rem;
 	}
 
+
 	input[type="checkbox"],
 	input[type="radio"] {
 		-moz-appearance: none;
@@ -2547,6 +2548,9 @@ input, select, textarea {
 
 	.formerize-placeholder {
 		color: #909498 !important;
+	}
+	.opis {
+		min-height: 140px;
 	}
 
 /* Icon */
@@ -4199,7 +4203,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 1rem 4rem 1rem 4rem ;
 			border-left: solid 2px #e2e2e2;
 		}
 
@@ -4220,17 +4224,17 @@ input, select, textarea {
 			}
 
 				#footer > section.split > section {
-					padding: 3rem 4rem 1rem 4rem ;
+					padding: 1rem 4rem 1rem 4rem ;
 					border-top: solid 2px #e2e2e2;
 				}
 
 					#footer > section.split > section:first-child {
-						padding: 5rem 4rem 1rem 4rem ;
+						padding: 1rem 4rem 1rem 4rem ;
 						border-top: 0;
 					}
 
 					#footer > section.split > section:last-child {
-						padding: 3rem 4rem 3rem 4rem ;
+						padding: 1rem 4rem 1rem 4rem ;
 					}
 
 				#footer > section.split.contact > section {
@@ -4273,11 +4277,11 @@ input, select, textarea {
 					}
 
 					#footer > section.split.contact > section:first-child {
-						padding: 4rem 4rem 3rem 4rem;
+						padding: 1rem 4rem 1rem 4rem;
 					}
 
 					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
+						padding: 1rem 4rem 1rem 4rem;
 					}
 
 					#footer > section.split.contact > section.alt {
